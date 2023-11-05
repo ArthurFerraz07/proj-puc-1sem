@@ -83,9 +83,6 @@ Funcionalidades estáticas
 Tela restaurante:
 - deve ser capaz de visualizar a página de um restaurante com informações sobre o mesmo
 - deve ser capaz de visualizar o menu de produtos de um restaurante
-
-Tela produto:
-- deve ser capaz de visualizar as informações de um produto
   
 Tela carrinho:
 - deve ser capaz de visualizar o carrinho

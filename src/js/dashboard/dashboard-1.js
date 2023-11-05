@@ -111,21 +111,8 @@
     });
     
     i.bubbles([{
-        centered: "USA", fillKey: "white", radius: 5, sold: "$500", country: "United States"
-    }, {
-        centered: "SAU", fillKey: "Visited", radius: 5, sold: "$900", country: "Saudia Arabia"
-    }, {
-        centered: "RUS", fillKey: "neato", radius: 5, sold: "$250", country: "Russia"
-    }, {
-        centered: "CAN", fillKey: "white", radius: 5, sold: "$1000", country: "Canada"
-    }, {
-        centered: "IND", fillKey: "Visited", radius: 5, sold: "$50", country: "India"
-    }, {
-        centered: "AUS", fillKey: "white", radius: 5, sold: "$700", country: "Australia"
-    }, {
-        centered: "BGD", fillKey: "Visited", radius: 5, sold: "$1500", country: "Bangladesh"
-    }
-    ]),
+        centered: "Usa", fillKey: "white", radius: 5, sold: "", country: "Italy"
+    },]),
     window.addEventListener("resize", function (e) {
         i.resize()
     });

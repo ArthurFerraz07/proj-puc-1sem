@@ -7600,7 +7600,7 @@ sub {
   .nav-header .brand-logo {
     z-index: 999; }
     .nav-header .brand-logo a {
-      padding: 1.607rem 1.8125rem;
+      padding: rem 1.8125rem;
       display: block; }
       .nav-header .brand-logo a i {
         font-size: 1.375rem; }
@@ -8130,11 +8130,11 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
   top: 0.625rem; }
 
 .content-body {
-  margin-left: 15.1875rem;
+  margin-left: 0;
   z-index: 0; }
   @media only screen and (min-width: 1200px) and (max-width: 1350px) {
     .content-body {
-      margin-left: 14.375rem; } }
+      margin-left: 0; } }
 
 .nk-sidebar {
   width: 15.1875rem;
@@ -10238,7 +10238,7 @@ input[type="checkbox"]:checked:after {
   border-radius: 4px; }
 
 #world-map {
-  height: 400px !important; }
+  height: 400px !important;}
 
 .table td {
   line-height: 1.2;

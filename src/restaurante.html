@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <!-- theme meta -->
+    <meta name="theme-name" content="quixlab" />
+  
+    <title>Bella Tavola</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Pignose Calender -->
+    <link href="./plugins/pg-calendar/css/pignose.calendar.min.css" rel="stylesheet">
+    <!-- Chartist -->
+    <link rel="stylesheet" href="./plugins/chartist/css/chartist.min.css">
+    <link rel="stylesheet" href="./plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css">
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+    
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <div class="brand-logo">
+                <a href="index.html">
+                    <b class="logo-abbr"><img src="images/logo.png" alt=""> </b>
+                    <span class="logo-compact"><img src="./images/logo-compact.png" alt=""></span>
+                    <span class="brand-title">
+                        <img src="images/logo-text.png" alt="">
+                    </span>
+                </a>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">    
+            <div class="header-content clearfix">
+                <div class="header-left" style="margin: 0px; padding-top: 20px">
+                    <h2>Restaurante X</h2>
+                </div>
+
+                <div class="header-right">
+                    <ul class="clearfix">
+                        <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+                                <i class="mdi mdi-cart-outline"></i>
+                                <span class="badge badge-pill gradient-1">3</span>
+                            </a>
+                            <div class="drop-down animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-heading d-flex justify-content-between">
+                                    <span class="">Carrinho (Total: R$73,00)</span>  
+                                    <a href="javascript:void()" class="d-inline-block">
+                                        <span class="badge badge-pill gradient-1">3</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li>
+                                            <span style="padding: 10px"> 1. Lasanha - R$50,00</span>
+                                        </li>
+                                        <li>
+                                            <span style="padding: 10px"> 2. Pizza - R$23,00</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="btn mb-1 btn-primary">
+                                                <a href="checkout.html" style="color: white">
+                                                    Checkout <span class="btn-icon-right"><i class="fa fa-shopping-cart"></i></span>
+                                                </a>
+                                            </button>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="icons dropdown">
+                            <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
+                                <span class="activity active"></span>
+                                <img src="images/user/1.png" height="40" width="40" alt="">
+                            </div>
+                            <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
+                                <div class="dropdown-content-body">
+                                    <ul>
+                                        <li><a href="#"><i class="icon-key"></i> <span>Logout</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        
+        <div class="content-body" style="padding: 25px">
+            <div class="card" style="padding: 25px">
+                <h3>Pratos</h3>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/custom/pizza.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizza</h5>
+                                <p class="card-text">A pizza é um prato italiano amplamente apreciado globalmente, caracterizado por sua base de massa fina coberta com molho de tomate, queijo e uma variedade de ingredientes, como carnes, vegetais e ervas. Sua versatilidade culinária permite uma infinidade de variações, tornando-a uma escolha popular para refeições rápidas, lanches ou ocasiões especiais. A pizza transcende fronteiras culturais e se tornou um ícone da gastronomia, apreciada por pessoas de todas as idades em todo o mundo.</p>
+                                <p class="card-text"><b>Valor</b>: R$23,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text d-inline"><small class="text-muted">Desde 1899</small>
+                                </p><a href="#" class="card-link float-right"><small>Adicionar ao carrinho</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/custom/lasanha.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Lasanha</h5>
+                                <p class="card-text">Lasanha é uma deliciosa iguaria italiana que consiste em camadas de massa intercaladas com molho de carne, molho branco e queijo, criando uma combinação de sabores e texturas. A lasanha é frequentemente assada no forno até que fique dourada e borbulhante, resultando em um prato reconfortante e satisfatório que é apreciado em todo o mundo por sua riqueza e complexidade de sabores.</p>
+                                <p class="card-text"><b>Valor</b>: R$50,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text d-inline"><small class="text-muted">Desde 1899</small>
+                                </p><a href="#" class="card-link float-right"><small>Adicionar ao carrinho</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/custom/polpetone.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Polpetone</h5>
+                                <p class="card-text">O polpetone é um prato italiano que destaca a versatilidade da carne moída, em que bolas de carne temperada são moldadas em forma de hambúrguer e recheadas com queijo ou outros ingredientes. Essas bolas são então cozidas em molho de tomate ou assadas no forno, criando uma refeição suculenta e saborosa. O polpetone é apreciado pela sua simplicidade e combinação de sabores que fazem dele uma opção popular na culinária italiana.</p>
+                                <p class="card-text"><b>Valor</b>: R$17,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text d-inline"><small class="text-muted">Desde 1899</small>
+                                </p><a href="" class="card-link float-right"><small>Adicionar ao carrinho</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card">
+                            <img class="img-fluid" src="images/custom/macarrao.webp" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Macarrao</h5>
+                                <p class="card-text">O macarrão é um elemento fundamental da culinária italiana, e há uma grande variedade de formatos de massa, como espaguete, penne, linguine e muito mais. O macarrão é frequentemente cozido al dente e servido com diversos molhos, desde o clássico molho de tomate até molhos à base de queijo, manteiga e ervas. Sua simplicidade, versatilidade e sabor reconfortante o tornam um prato amado em todo o mundo, e é muitas vezes personalizado de acordo com as preferências individuais.</p>
+                                <p class="card-text"><b>Valor</b>: R$20,00</p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text d-inline"><small class="text-muted">Desde 1899</small>
+                                </p><a href="#" class="card-link float-right"><small>Adicionar ao carrinho</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                </div>
+            </div>
+        </div>
+
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        
+        
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <div class="footer">
+            <div class="copyright">
+                <p>Bella Tavola 2023</p>
+            </div>
+        </div>
+        <!--**********************************
+            Footer end
+        ***********************************-->
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <script src="plugins/common/common.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/settings.js"></script>
+    <script src="js/gleek.js"></script>
+    <script src="js/styleSwitcher.js"></script>
+
+    <!-- Chartjs -->
+    <script src="./plugins/chart.js/Chart.bundle.min.js"></script>
+    <!-- Circle progress -->
+    <script src="./plugins/circle-progress/circle-progress.min.js"></script>
+    <!-- Datamap -->
+    <script src="./plugins/d3v3/index.js"></script>
+    <script src="./plugins/topojson/topojson.min.js"></script>
+    <script src="./plugins/datamaps/datamaps.world.min.js"></script>
+    <!-- Morrisjs -->
+    <script src="./plugins/raphael/raphael.min.js"></script>
+    <script src="./plugins/morris/morris.min.js"></script>
+    <!-- Pignose Calender -->
+    <script src="./plugins/moment/moment.min.js"></script>
+    <script src="./plugins/pg-calendar/js/pignose.calendar.min.js"></script>
+    <!-- ChartistJS -->
+    <script src="./plugins/chartist/js/chartist.min.js"></script>
+    <script src="./plugins/chartist-plugin-tooltips/js/chartist-plugin-tooltip.min.js"></script>
+
+
+
+    <script src="./js/dashboard/dashboard-1.js"></script>
+
+</body>
+
+</html>

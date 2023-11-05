@@ -80,12 +80,21 @@ Template padrão
 ## Fase 3
 Funcionalidades estáticas
 
-Tela restaurante:
-- deve ser capaz de visualizar a página de um restaurante com informações sobre o mesmo
-- deve ser capaz de visualizar o menu de produtos de um restaurante
-  
-Tela carrinho:
-- deve ser capaz de visualizar o carrinho
 
-Tela pedido:
-- deve ser capaz de visualizar informações sobre um pedido
+Tela index:
+- deve ser capaz de ver os restaurantes cadastrados
+![print3](print3.png)
+
+Tela restaurante:
+- deve ser capaz de visualizar o menu de produtos de um restaurante
+- deve ser capaz de adicionar um produto ao carrinho
+![print2](print2.png)
+
+Tela checkout:
+- deve ser capaz de pedir o conteúdo do carrinho para o endereco de entrega
+![print4](print4.png)
+
+
+Tela de login:
+- deve ser capaz de fazer login
+![print5](print5.png)

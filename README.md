@@ -1,4 +1,4 @@
-# Bella Tavola
+# Delizioso
 
 Delivery e exposição/propaganda/publicidade de culinária italiana
 
@@ -13,53 +13,22 @@ Dessa forma, a criação desse novo software se justifica como uma solução abr
 
 # Requisitos
 ## Funcionais
-cliente:
-- deve ser capaz de criar uma conta
-  - deve ser capaz de fazer login
-  - deve ser capaz de fazer logout
+O cliente deve ser capaz de: 
+- criar uma conta
+- fazer login
 
-- deve ser capaz de pesquisar por produtos e restaurantes
+- visualizar o menu de produtos
 
-- deve ser capaz de visualizar a página de um restaurante com informações sobre o mesmo
-- deve ser capaz de visualizar o menu de produtos de um restaurante
-- deve ser capaz de visualizar as informações de um produto
+- adicionar um produto ao carrinho
+- remover um produto do carrinho
 
-- deve ser capaz de adicionar um produto ao carrinho
-- deve ser capaz de remover um produto do carrinho
-
-- deve ser capaz de visualizar o carrinho
-- deve ser capaz de fazer checkout no carrinho
+- visualizar o carrinho
+- fazer checkout no carrinho
   - escolher o endereço de entrega
   - escolher a forma de pagamento
 
-- deve ser capaz de visualizar o histórico de pedidos
-- deve ser capaz de visualizar informações sobre um pedido
-- deve ser capaz de acompanhar o status de um pedido
-- deve ser capaz de cancelar um pedido
-
-restaurante:
-- deve ser capaz de criar uma conta
-  - deve ser capaz de fazer login
-  - deve ser capaz de fazer logout
-
-- deve ser capaz de editar as informações do restaurante
-  - nome
-  - descrição
-  - endereço
-  - horário de funcionamento
-  - imagem de perfil
-  - imagem de capa
-
-- deve ser capaz de visualizar seus produtos
-- deve ser capaz de visualizar as informações de um produto
-- deve ser capaz de adicionar um produto
-- deve ser capaz de editar um produto
-- deve ser capaz de remover um produto
-
-- deve ser capaz de visualizar os pedidos recebidos
-- deve ser capaz de visualizar informações sobre um pedido
-- deve ser capaz de atualizar o status de um pedido
-- deve ser capaz de cancelar um pedido
+- visualizar o histórico de pedidos
+- visualizar informações de um pedido
 
 ## Não funcionais
 - A interface do usuário deve ser intuitiva e de fácil navegação, garantindo uma experiência amigável para o cliente e o restaurante.
@@ -68,7 +37,6 @@ restaurante:
 - O mecanismo de pesquisa de produtos e restaurantes deve ser eficiente e fornecer resultados relevantes com rapidez.
 - Utilizar um sistema de controle de versões para rastrear alterações no código e facilitar a colaboração entre desenvolvedores.
 - Manter a segurança das sessões do usuário e a autenticação de forma consistente e confiável.
-
 
 # Entregas
 ## Fase 1
@@ -80,21 +48,34 @@ Template padrão
 ## Fase 3
 Funcionalidades estáticas
 
+## Fase 4 
+Programação de Funcionalidades - Javascript
 
-Tela index:
-- deve ser capaz de ver os restaurantes cadastrados
-![print3](print3.png)
+# prints
+- criar uma conta
+- fazer login
+![print1](prints/1.png)
 
-Tela restaurante:
-- deve ser capaz de visualizar o menu de produtos de um restaurante
-- deve ser capaz de adicionar um produto ao carrinho
-![print2](print2.png)
+- fazer logout
+![print1](prints/2.png)
 
-Tela checkout:
-- deve ser capaz de pedir o conteúdo do carrinho para o endereco de entrega
-![print4](print4.png)
+- visualizar o menu de produtos
+![print1](prints/3.png)
+![print1](prints/4.png)
+![print1](prints/5.png)
+
+- adicionar um produto ao carrinho
+- remover um produto do carrinho
+- visualizar o carrinho
+![print1](prints/6.png)
+
+- fazer checkout no carrinho
+  - escolher o endereço de entrega
+  - escolher a forma de pagamento
+![print1](prints/7.png)
+
+- visualizar o histórico de pedidos
+- visualizar informações de um pedido
+- ![print1](prints/8.png)
 
 
-Tela de login:
-- deve ser capaz de fazer login
-![print5](print5.png)

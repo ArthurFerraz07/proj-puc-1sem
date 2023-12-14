@@ -40,6 +40,9 @@ O cliente deve ser capaz de:
 - Utilizar um sistema de controle de versões para rastrear alterações no código e facilitar a colaboração entre desenvolvedores.
 - Manter a segurança das sessões do usuário e a autenticação de forma consistente e confiável.
 
+# Figma (protótipo)
+- https://www.figma.com/file/NEQHZB3ZL9xK6mq8Bvz97u/proj-puc-1sem?type=design&node-id=0-1&mode=design&t=teUABr3pBikuA36C-0
+
 # Entregas
 ## Fase 1
 Problema, justificativa e requisitos funcionais e não funcionais.
